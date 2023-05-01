@@ -1,0 +1,72 @@
+.slide__block
+{
+  position: relative;
+  width: 750px;
+  height: 350px;
+  background-color: gray;
+  overflow: hidden;
+ }
+
+ .slide__block_link
+ {
+  position: absolute;
+  left: 0;
+  display: flex;
+  width: 30000px;
+  height: 350px;
+  background-color: lightblue;
+ }
+
+ .slide__link
+ {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 750px;
+  height: 350px;
+ }
+
+ .slide__link-yellow
+ {
+  background-color: lightyellow;
+ }
+
+ .slide__link-orange
+ {
+  background-color: orange;
+ }
+
+ .slide__link-green
+ {
+  background-color: lightgreen;
+ }
+
+ .slide__link-red
+ {
+  background-color: lightgrey;
+ }
+
+  .slide__btn
+  {
+    width: 20px;
+    height: 20px;
+    background-color: #ffffff;
+  }
+
+ .slide__btn-prev
+ {
+  position: absolute;
+  top:165px;
+  left: 10px;
+  z-index: 10;
+  cursor: pointer;
+ }
+
+ .slide__btn-next
+ {
+  position: absolute;
+  top:165px;
+  right: 10px;
+  z-index: 10;
+  cursor: pointer;
+ }
